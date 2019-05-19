@@ -1,0 +1,6 @@
+.ImgProp {
+  background: url("../images/BgImage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 720px;
+}

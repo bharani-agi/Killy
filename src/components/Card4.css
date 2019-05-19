@@ -1,0 +1,18 @@
+.card4 {
+  height: 300px;
+  width: 200px;
+  box-shadow: 7px 9px 25px 0px rgba(0, 0, 0, 0.75);
+  margin: 2%;
+}
+.card-group {
+  margin: 2%;
+}
+.card4-title {
+  margin-top: 10% !important;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.card-group {
+  margin-left: 12% !important;
+}

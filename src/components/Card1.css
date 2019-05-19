@@ -1,0 +1,22 @@
+.card1 {
+  height: 200px;
+  width: 150px;
+  box-shadow: 7px 9px 25px 0px rgba(0, 0, 0, 0.75);
+  margin: 2%;
+}
+.card-group {
+  margin-left: 13% !important;
+}
+.card-img-top {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: 26%;
+}
+.card-title {
+  text-align: center;
+  margin-top: -25% !important;
+}
+#c1 {
+  /* margin-left: 25%; */
+}

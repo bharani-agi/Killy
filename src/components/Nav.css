@@ -1,0 +1,19 @@
+.nav-color {
+  background: linear-gradient(to right, #2193b0, #6dd5ed);
+  color: white;
+}
+.LinkColor {
+  color: #fff !important;
+}
+.imgProp {
+  margin-left: 6% !important;
+  /* margin-top: 2%; */
+  color: white !important;
+  font-weight: 700;
+  font-size: 25px;
+}
+.d-inline-block {
+  height: 50px;
+  width: 50px;
+  /* margin-left: 14%; */
+}
