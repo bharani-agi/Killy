@@ -7,6 +7,7 @@ import Card4 from "./Card4";
 import Footer from "./Footer";
 import "./BgImage.css";
 import PartnerList from "./partnerList";
+import { Button } from "reactstrap";
 
 class Main extends Component {
   state = {};
@@ -15,6 +16,7 @@ class Main extends Component {
       <React.Fragment>
         <NavigationBar />
         <div className="ImgProp" />
+        <Button className="btn">Chat With Killy</Button>
         <div style={{ paddingTop: "9vh" }}>
           <Section title="Why Choose Killy" />
           <Card1 />
@@ -22,7 +24,7 @@ class Main extends Component {
           <CardList />
           <Section title="Our Partners" />
           <PartnerList />
-          <Section title="Platforms" />
+          <Section title="Platforms" className="path" />
           <Card4 />
           <Footer />
         </div>
