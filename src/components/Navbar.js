@@ -53,7 +53,7 @@ export default class NavigationBar extends React.Component {
               </NavItem>
               <NavItem>
                 <NavLink className="LinkColor" href="/privatePolicy">
-                  Private Policy
+                  Privacy Policy
                 </NavLink>
               </NavItem>
               <NavItem>
