@@ -165,7 +165,12 @@ const PrivatePolicy = () => {
         <a style={{ color: "#068FB8" }}> hello@killy</a>.aito get clarification
         and we shall try to revert back at the earliest to solve your queries.
       </p>
-      KILLY APP PERMISSIONS
+      <h3 style={{ marginLeft: "2%", marginRight: "2%" }}>
+        KILLY APP PERMISSIONS
+      </h3>
+      <p style={{ marginLeft: "2%", marginRight: "2%" }}>
+        <a style={{ color: "#068FB8" }}> Killy App Permissions </a>
+      </p>
     </div>
   );
 };
