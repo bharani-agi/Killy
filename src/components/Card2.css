@@ -1,11 +1,11 @@
 .card2 {
   height: 170px;
-  width: 150px;
+  width: 200px;
   box-shadow: 7px 9px 25px 0px rgba(0, 0, 0, 0.75);
   margin: 2%;
 }
 .card-group {
-  margin-left: 10% !important;
+  margin-top: 5% !important;
   display: flex;
 }
 
@@ -13,9 +13,10 @@
   border-radius: 0%;
   width: 70px;
   height: 70px;
-  margin: 10% 26% 10% 26%;
+  margin: 10% 40% 0% 30%;
 }
 
-.card-title1 {
+.card-title2 {
   text-align: center;
+  margin-top: -8%;
 }

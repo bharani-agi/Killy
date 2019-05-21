@@ -1,31 +1,31 @@
 let partnerImages = [];
 export default (partnerImages = [
   {
-    title: "Uber",
-    thumb: "images/uber.jpg"
+    title: "Coming Soon",
+    thumb: "images/Question.svg"
   },
   {
-    title: "RedBus",
-    thumb: "images/redbus.jpg"
+    title: "Coming Soon",
+    thumb: "images/Question.svg"
   },
   {
-    title: "Hotels",
-    thumb: "images/Hotels.png"
+    title: "Coming Soon",
+    thumb: "images/Question.svg"
   },
   {
-    title: "Zomato",
-    thumb: "images/zomato.png"
+    title: "Coming Soon",
+    thumb: "images/Question.svg"
   },
   {
-    title: "StarBucks",
-    thumb: "images/Starbucks.jpg"
+    title: "Coming Soon",
+    thumb: "images/Question.svg"
   },
   {
-    title: "PayPal",
-    thumb: "images/Paypal.jpg"
+    title: "Coming Soon",
+    thumb: "images/Question.svg"
   },
   {
-    title: "MakeMyTrip",
-    thumb: "images/makemytrip.jpg"
+    title: "Coming Soon",
+    thumb: "images/Question.svg"
   }
 ]);

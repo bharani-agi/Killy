@@ -12,6 +12,9 @@ class Card3 extends Component {
               src={require("../" + item.thumb)}
               alt={item.title}
             />
+            <div className="card-body">
+              <h5 className="card-title3">{item.title}</h5>
+            </div>
           </div>
         ))}
       </div>

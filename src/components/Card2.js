@@ -13,7 +13,7 @@ class Card2 extends Component {
               alt={item.title}
             />
             <div className="card-body">
-              <h5 className="card-title1">{item.title}</h5>
+              <h5 className="card-title2">{item.title}</h5>
             </div>
           </div>
         ))}

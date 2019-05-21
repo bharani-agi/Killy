@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import KillyImages from "./KillyImages";
-import Card2 from "./Card2";
+import whyImages from "./whyImages";
+import Card1 from "./Card1";
 
-class CardList extends Component {
+class WhyImagesList extends Component {
   getProjectCards = item => {
     let arrays = [];
-    let size = 4;
+    let size = 6;
 
     while (item.length > 0) arrays.push(item.splice(0, size));
 
@@ -13,7 +13,7 @@ class CardList extends Component {
 
     if (arrays) {
       for (let i = 0; i < arrays.length; i++) {
-        cardArray.push(<Card2 key={i} cardData={arrays[i]} />);
+        cardArray.push(<Card1 key={i} cardData={arrays[i]} />);
       }
     }
 
@@ -23,10 +23,10 @@ class CardList extends Component {
   render() {
     return (
       <React.Fragment>
-        <div>{this.getProjectCards(KillyImages)}</div>
+        <div>{this.getProjectCards(whyImages)}</div>
       </React.Fragment>
     );
   }
 }
 
-export default CardList;
+export default WhyImagesList;

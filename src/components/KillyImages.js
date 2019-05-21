@@ -1,7 +1,7 @@
 let KillyImages = [];
 export default (KillyImages = [
   {
-    title: "Air Ticket Booking",
+    title: "Flights Booking",
     thumb: "images/Plane.png"
   },
   {
@@ -17,7 +17,7 @@ export default (KillyImages = [
     thumb: "images/Hotel.png"
   },
   {
-    title: "Rentle Booking",
+    title: "Rental Booking",
     thumb: "images/rentle.png"
   },
   {
@@ -37,7 +37,15 @@ export default (KillyImages = [
     thumb: "images/food.png"
   },
   {
-    title: "Event Planner",
+    title: "Event/Movies/Shows Ticket",
     thumb: "images/event.png"
+  },
+  {
+    title: "Attractions",
+    thumb: "images/redbus.jpg"
+  },
+  {
+    title: "City Info",
+    thumb: "images/cityinfo.jpg"
   }
 ]);

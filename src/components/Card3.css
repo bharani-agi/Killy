@@ -5,6 +5,13 @@
   margin: 2%;
 }
 .card3-img-top {
-  height: 150px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
+  margin-left: 15%;
+  opacity: 0.5;
+}
+.card-title3 {
+  text-align: center;
+  /* font-size: 12px; */
+  margin-top: -12% !important;
 }
