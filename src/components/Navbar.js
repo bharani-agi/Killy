@@ -52,12 +52,12 @@ export default class NavigationBar extends React.Component {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="LinkColor" href="#">
+                <NavLink className="LinkColor" href="/privatePolicy">
                   Private Policy
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="LinkColor" href="#">
+                <NavLink className="LinkColor" href="/termsConditions">
                   Terms and Conditions
                 </NavLink>
               </NavItem>
