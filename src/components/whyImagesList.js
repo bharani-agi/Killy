@@ -5,7 +5,7 @@ import Card1 from "./Card1";
 class WhyImagesList extends Component {
   getProjectCards = item => {
     let arrays = [];
-    let size = 6;
+    let size = 3;
 
     while (item.length > 0) arrays.push(item.splice(0, size));
 

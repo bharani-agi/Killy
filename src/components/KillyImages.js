@@ -42,10 +42,10 @@ export default (KillyImages = [
   },
   {
     title: "Attractions",
-    thumb: "images/redbus.jpg"
+    thumb: "images/Attractions.svg"
   },
   {
     title: "City Info",
-    thumb: "images/cityinfo.jpg"
+    thumb: "images/cityInfo.svg"
   }
 ]);
