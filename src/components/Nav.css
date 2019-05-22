@@ -3,16 +3,18 @@
 }
 .LinkColor {
   color: #fff !important;
-
-  /* border-bottom: 2px solid #fff; */
 }
 .LinkColor:hover {
   background-color: #2193b0;
   color: white;
   box-shadow: 7px 9px 25px 0px #2193b0;
 }
+.logoName {
+  margin-top: -10% !important;
+  padding: 7%;
+}
 .imgProp {
-  margin-left: 6% !important;
+  margin-left: 12% !important;
   color: white !important;
   font-weight: 700;
   font-size: 25px;

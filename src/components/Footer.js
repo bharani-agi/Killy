@@ -31,33 +31,11 @@ class Footer extends Component {
 
             <hr className="clearfix w-100 d-md-none" />
 
-            <div className="col-md-3 mx-auto">
+            <div className="alk col-md-3 mx-auto">
               {/* <h5 className="font-weight-bold text-uppercase mt-3 mb-4">
                 Links
               </h5> */}
 
-              {/* <ul className="list-unstyled">
-                <li>
-                  <a href="#!">Home</a>
-                </li>
-                <li>
-                  <a href="#!">About Us</a>
-                </li>
-                <li>
-                  <a href="#!">Contact Us</a>
-                </li>
-                <li>
-                  <a href="#!">Privacy Policy</a>
-                </li>
-                <li>
-                  <a href="#!">Terms & Conditions</a>
-                </li>
-              </ul> */}
-            </div>
-
-            <hr className="clearfix w-100 d-md-none" />
-
-            <div className="alk col-md-3 mx-auto">
               <ul className="list-unstyled">
                 <li>
                   <a className="lk" href="#!">
@@ -85,6 +63,38 @@ class Footer extends Component {
                   </a>
                 </li>
               </ul>
+            </div>
+
+            <hr className="clearfix w-100 d-md-none" />
+
+            <div className="alk col-md-3 mx-auto">
+              {/* <ul className="list-unstyled">
+                <li>
+                  <a className="lk" href="#!">
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a className="lk" href="#!">
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a className="lk" href="#!">
+                    Contact Us
+                  </a>
+                </li>
+                <li>
+                  <a className="lk" href="#!">
+                    Privacy Policy
+                  </a>
+                </li>
+                <li>
+                  <a className="lk" href="#!">
+                    Terms & Conditions
+                  </a>
+                </li>
+              </ul> */}
             </div>
 
             <hr className="clearfix w-100 d-md-none" />

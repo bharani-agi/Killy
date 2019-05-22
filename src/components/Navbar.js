@@ -30,8 +30,8 @@ export default class NavigationBar extends React.Component {
       <div>
         <Navbar fixed="top" className="nav-color" light expand="md">
           <NavbarBrand className="imgProp" href="/">
-            <img alt="" src={image} className="d-inline-block align-top" />
-            {"Killy"}
+            <img alt="" src={image} className="d-inline-block" />
+            <span className="logoName">Killy</span>
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
