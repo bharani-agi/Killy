@@ -47,7 +47,7 @@ export default class NavigationBar extends React.Component {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="LinkColor" href="#">
+                <NavLink className="LinkColor" href="/contactUs">
                   Contact Us
                 </NavLink>
               </NavItem>

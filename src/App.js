@@ -5,6 +5,8 @@ import { BrowserRouter, Route } from "react-router-dom";
 import PrivatePolicy from "./components/privatePolicy";
 import TermsConditions from "./components/TermsCondition";
 import AppPermissions from "./components/appPermission";
+import ContactUs from "./components/contactUs";
+import MapContainer from "./components/map";
 
 class App extends Component {
   render() {
@@ -15,6 +17,8 @@ class App extends Component {
           <Route exact path="/privatePolicy" component={PrivatePolicy} />
           <Route exact path="/termsConditions" component={TermsConditions} />
           <Route exact path="/appPermission" component={AppPermissions} />
+          <Route exact path="/contactUs" component={ContactUs} />
+          <Route exact path="/map" component={MapContainer} />
         </div>
       </BrowserRouter>
     );
