@@ -21,9 +21,9 @@ export default class PlatformSlider extends Component {
           <div>
             <Card className="whyCard">
               <CardImg
-                className="crdImg1"
+                className="crdImage21"
                 top
-                src={require("../images/google_Assis.png")}
+                src={require("../images/Google_Assistant_logo.svg")}
                 alt="Card image cap"
               />
               <CardBody>
@@ -34,9 +34,9 @@ export default class PlatformSlider extends Component {
           <div>
             <Card className="whyCard">
               <CardImg
-                className="crdImg1"
+                className="crdImage21"
                 top
-                src={require("../images/facebook-messenger.jpg")}
+                src={require("../images/messenger1.svg")}
                 alt="Card image cap"
               />
               <CardBody>
@@ -47,9 +47,9 @@ export default class PlatformSlider extends Component {
           <div>
             <Card className="whyCard">
               <CardImg
-                className="crdImg1"
+                className="crdImage21"
                 top
-                src={require("../images/slack2.png")}
+                src={require("../images/slack.svg")}
                 alt="Card image cap"
               />
               <CardBody>
@@ -60,9 +60,9 @@ export default class PlatformSlider extends Component {
           <div>
             <Card className="whyCard">
               <CardImg
-                className="crdImg1"
+                className="crdImage21"
                 top
-                src={require("../images/Viber2.jpg")}
+                src={require("../images/viber.svg")}
                 alt="Card image cap"
               />
               <CardBody>
@@ -73,9 +73,9 @@ export default class PlatformSlider extends Component {
           <div>
             <Card className="whyCard">
               <CardImg
-                className="crdImg1"
+                className="crdImage21"
                 top
-                src={require("../images/line.png")}
+                src={require("../images/line3.svg")}
                 alt="Card image cap"
               />
               <CardBody>
@@ -86,9 +86,9 @@ export default class PlatformSlider extends Component {
           <div>
             <Card className="whyCard">
               <CardImg
-                className="crdImg1"
+                className="crdImage21"
                 top
-                src={require("../images/alexa.jpg")}
+                src={require("../images/alexa4.png")}
                 alt="Card image cap"
               />
               <CardBody>
@@ -99,9 +99,9 @@ export default class PlatformSlider extends Component {
           <div>
             <Card className="whyCard">
               <CardImg
-                className="crdImg1"
+                className="crdImage21"
                 top
-                src={require("../images/cortana.jpg")}
+                src={require("../images/cortana.svg")}
                 alt="Card image cap"
               />
               <CardBody>
@@ -112,9 +112,9 @@ export default class PlatformSlider extends Component {
           <div>
             <Card className="whyCard">
               <CardImg
-                className="crdImg1"
+                className="crdImage21"
                 top
-                src={require("../images/twitter.png")}
+                src={require("../images/twitter11.svg")}
                 alt="Card image cap"
               />
               <CardBody>
@@ -125,9 +125,9 @@ export default class PlatformSlider extends Component {
           <div>
             <Card className="whyCard">
               <CardImg
-                className="crdImg1"
+                className="crdImage21"
                 top
-                src={require("../images/Telegram.jpg")}
+                src={require("../images/telegram.svg")}
                 alt="Card image cap"
               />
               <CardBody>
@@ -138,9 +138,9 @@ export default class PlatformSlider extends Component {
           <div>
             <Card className="whyCard">
               <CardImg
-                className="crdImg1"
+                className="crdImage21"
                 top
-                src={require("../images/hangout.jpg")}
+                src={require("../images/hangout.svg")}
                 alt="Card image cap"
               />
               <CardBody>

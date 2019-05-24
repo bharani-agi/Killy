@@ -27,7 +27,7 @@ export default class WhyImageSlider extends Component {
                 <div className="Front">
                   <img
                     className="crdImg1"
-                    src={require("../images/allAssis.png")}
+                    src={require("../images/allinone.svg")}
                     alt=""
                     style={{ objectFit: "cover" }}
                   />
@@ -52,7 +52,7 @@ export default class WhyImageSlider extends Component {
                 <div className="Front">
                   <img
                     className="crdImg1"
-                    src={require("../images/bestPrice2.jpg")}
+                    src={require("../images/bestprice.svg")}
                     alt=""
                     style={{ objectFit: "cover" }}
                   />
@@ -76,7 +76,7 @@ export default class WhyImageSlider extends Component {
                 <div className="Front">
                   <img
                     className="crdImg1"
-                    src={require("../images/thumsUp.jpg")}
+                    src={require("../images/simple.svg")}
                     alt=""
                     style={{ objectFit: "cover" }}
                   />
@@ -122,7 +122,7 @@ export default class WhyImageSlider extends Component {
                 <div className="Front">
                   <img
                     className="crdImg1"
-                    src={require("../images/Guarantee.png")}
+                    src={require("../images/service.svg")}
                     alt=""
                     style={{ objectFit: "cover" }}
                   />
@@ -147,7 +147,7 @@ export default class WhyImageSlider extends Component {
                 <div className="Front">
                   <img
                     className="crdImg1"
-                    src={require("../images/t_o.jpg")}
+                    src={require("../images/tripPlanner.svg")}
                     alt=""
                     style={{ objectFit: "cover" }}
                   />

@@ -16,7 +16,7 @@
 }
 .Title {
   text-align: center;
-  margin-left: 10%;
+  /* margin-left: %; */
 }
 .slick-track {
   height: 300px;
@@ -29,10 +29,10 @@
   width: 200px !important;
 }
 .crdImg1 {
-  width: 90px !important;
-  height: 90px !important;
-  margin-top: 11% !important;
-  border-radius: 50% !important;
+  width: 200px !important;
+  height: 130px !important;
+  /* margin-top: 11% !important; */
+  /* border-radius: 50% !important; */
 }
 .variable-width .slick-slide p {
   background: blue;
