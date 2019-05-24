@@ -1,5 +1,5 @@
 .page-footer {
-  background-image: linear-gradient(to right, #2193b0, #6dd5ed);
+  background-image: linear-gradient(to right, #2aa368, #48c59a);
   color: white;
 }
 .ftrmgr {
@@ -11,6 +11,13 @@
 .lk {
   color: white;
 }
+.alk1 {
+  margin-left: 16%;
+  margin-top: 4%;
+}
 .alk {
   margin-top: 4%;
+}
+.alk2 {
+  margin-top: 7%;
 }

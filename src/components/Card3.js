@@ -15,6 +15,11 @@ class Card3 extends Component {
             <div className="card-body">
               <h5 className="card-title3">{item.title}</h5>
             </div>
+            <div className="card-body">
+              <button type="button" class="btn btn-danger">
+                Login
+              </button>
+            </div>
           </div>
         ))}
       </div>

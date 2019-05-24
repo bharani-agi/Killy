@@ -8,34 +8,7 @@ class Footer extends Component {
       <footer className="page-footer font-small indigo">
         <div className="container text-center text-md-left">
           <div className="row">
-            {/* <div className="col-md-3 mx-auto"> */}
-            {/* ><h5 className="font-weight-bold text-uppercase mt-3 mb-4">
-                Links
-              </h5 */}
-
-            {/* <ul className="list-unstyled">
-                <li>
-                  <a href="#!">Very long link 1</a>
-                </li>
-                <li>
-                  <a href="#!">Very long link 2</a>
-                </li>
-                <li>
-                  <a href="#!">Very long link 3</a>
-                </li>
-                <li>
-                  <a href="#!">Very long link 4</a>
-                </li>
-              </ul> */}
-            {/* </div> */}
-
-            <hr className="clearfix w-100 d-md-none" />
-
-            <div className="alk col-md-3 mx-auto">
-              {/* <h5 className="font-weight-bold text-uppercase mt-3 mb-4">
-                Links
-              </h5> */}
-
+            <div className="alk1 col-md-4 mx-auto">
               <ul className="list-unstyled">
                 <li>
                   <a className="lk" href="#!">
@@ -53,12 +26,12 @@ class Footer extends Component {
                   </a>
                 </li>
                 <li>
-                  <a className="lk" href="#!">
+                  <a className="lk" href="/privatePolicy">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a className="lk" href="#!">
+                  <a className="lk" href="/termsConditions">
                     Terms & Conditions
                   </a>
                 </li>
@@ -67,39 +40,40 @@ class Footer extends Component {
 
             <hr className="clearfix w-100 d-md-none" />
 
-            <div className="alk col-md-3 mx-auto">
-              {/* <ul className="list-unstyled">
-                <li>
-                  <a className="lk" href="#!">
-                    Home
+            <div className="alk2 col-md-4 mx-auto">
+              <div class="col-md-12">
+                <div class="mb-5 flex-center">
+                  {/* <!-- Facebook --> */}
+                  <a class="fb-ic">
+                    <i class="fab fa-facebook-f fa-lg white-text mr-4"> </i>
                   </a>
-                </li>
-                <li>
-                  <a className="lk" href="#!">
-                    About Us
+                  {/* <!-- Twitter --> */}
+                  <a class="tw-ic">
+                    <i class="fab fa-twitter fa-lg white-text mr-4"> </i>
                   </a>
-                </li>
-                <li>
-                  <a className="lk" href="#!">
-                    Contact Us
+                  {/* <!-- Google +--> */}
+                  <a class="gplus-ic">
+                    <i class="fab fa-google-plus-g fa-lg white-text mr-4"> </i>
                   </a>
-                </li>
-                <li>
-                  <a className="lk" href="#!">
-                    Privacy Policy
+                  {/* <!--Linkedin --> */}
+                  <a class="li-ic">
+                    <i class="fab fa-linkedin-in fa-lg white-text mr-4"> </i>
                   </a>
-                </li>
-                <li>
-                  <a className="lk" href="#!">
-                    Terms & Conditions
+                  {/* <!--Instagram--> */}
+                  <a class="ins-ic">
+                    <i class="fab fa-instagram fa-lg white-text mr-4"> </i>
                   </a>
-                </li>
-              </ul> */}
+                  {/* <!--Pinterest--> */}
+                  <a class="pin-ic">
+                    <i class="fab fa-pinterest fa-lg white-text"> </i>
+                  </a>
+                </div>
+              </div>
             </div>
 
             <hr className="clearfix w-100 d-md-none" />
 
-            <div className="ftrmgr col-md-3 mx-auto">
+            <div className="ftrmgr col-md-4 mx-auto">
               <h5 className="ftr mt-3 mb-4">
                 <b>We are at:</b>79 Ayer Rajah Crescent, #05-03, Singapore
                 139955

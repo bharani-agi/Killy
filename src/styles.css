@@ -1,6 +1,6 @@
 .section {
   clip-path: polygon(0 0, 88% 0, 100% 100%, 0 100%);
-  background-image: linear-gradient(to right, #2193b0, #6dd5ed);
+  background-image: linear-gradient(to right, #2aa368, #48c59a);
   width: 50%;
   padding: 1%;
   color: white;
@@ -12,7 +12,7 @@
   font-size: 20px;
 }
 .btn {
-  margin-left: 71%;
+  margin-left: 71% !important;
   margin-top: -55% !important;
   padding: 0.5% 3% 0.5% 3%;
   border: 1px solid #6dd5ed;

@@ -1,31 +1,11 @@
 let partnerImages = [];
 export default (partnerImages = [
   {
-    title: "Coming Soon",
-    thumb: "images/Question.svg"
+    title: "Merchant Partnership",
+    thumb: "images/alexa.jpg"
   },
   {
-    title: "Coming Soon",
-    thumb: "images/Question.svg"
-  },
-  {
-    title: "Coming Soon",
-    thumb: "images/Question.svg"
-  },
-  {
-    title: "Coming Soon",
-    thumb: "images/Question.svg"
-  },
-  {
-    title: "Coming Soon",
-    thumb: "images/Question.svg"
-  },
-  {
-    title: "Coming Soon",
-    thumb: "images/Question.svg"
-  },
-  {
-    title: "Coming Soon",
-    thumb: "images/Question.svg"
+    title: "SDK Partnership",
+    thumb: "images/cortana.jpg"
   }
 ]);

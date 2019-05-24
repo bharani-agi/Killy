@@ -27,7 +27,7 @@ class Main extends Component {
             <Section title="Services" />
             <CardList />
             <Section title="Our Partners" />
-            <OurPartnerSlider />
+            <PartnerList />
             <Section title="Platforms" className="path" />
             <PlatformSlider />
 
