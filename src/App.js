@@ -7,6 +7,7 @@ import TermsConditions from "./components/TermsCondition";
 import AppPermissions from "./components/appPermission";
 import ContactUs from "./components/contactUs";
 import MapContainer from "./components/map";
+import { Map, GoogleApiWrapper } from "google-maps-react";
 
 class App extends Component {
   render() {

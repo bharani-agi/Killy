@@ -44,19 +44,25 @@ class Footer extends Component {
               <div class="col-md-12">
                 <div class="mb-5 flex-center">
                   {/* <!-- Facebook --> */}
-                  <a class="fb-ic">
+                  <a class="fb-ic" href="https://www.facebook.com/heykilly">
                     <i class="fab fa-facebook-f fa-lg white-text mr-4"> </i>
                   </a>
                   {/* <!-- Twitter --> */}
-                  <a class="tw-ic">
+                  <a class="tw-ic" href="https://twitter.com/HeyKilly">
                     <i class="fab fa-twitter fa-lg white-text mr-4"> </i>
                   </a>
                   {/* <!-- Google +--> */}
-                  <a class="gplus-ic">
-                    <i class="fab fa-google-plus-g fa-lg white-text mr-4"> </i>
+                  <a
+                    class="ytube-ic"
+                    href="https://www.youtube.com/channel/UCDaRE5WFvp6KBrGNYXVs6jg?view_as=public"
+                  >
+                    <i class="fab fa-youtube fa-lg white-text mr-4" />
                   </a>
                   {/* <!--Linkedin --> */}
-                  <a class="li-ic">
+                  <a
+                    class="li-ic"
+                    href="https://www.linkedin.com/company/killy"
+                  >
                     <i class="fab fa-linkedin-in fa-lg white-text mr-4"> </i>
                   </a>
                   {/* <!--Instagram--> */}
@@ -64,7 +70,7 @@ class Footer extends Component {
                     <i class="fab fa-instagram fa-lg white-text mr-4"> </i>
                   </a>
                   {/* <!--Pinterest--> */}
-                  <a class="pin-ic">
+                  <a class="pin-ic" href="https://www.pinterest.com/HeyKilly/">
                     <i class="fab fa-pinterest fa-lg white-text"> </i>
                   </a>
                 </div>

@@ -168,9 +168,9 @@ const ContactUs = () => {
               </form>
             </div>
           </div>
+          {/* <MapContainer /> */}
         </div>
       </section>
-      <MapContainer />
       <Footer />
     </React.Fragment>
   );
