@@ -7,17 +7,30 @@
   background-color: #f9f9f9;
   z-index: -2;
 }
+/* .wow {
+  margin-top: -5% !important;
+}
+.wow1 {
+  padding-bottom: 5% !important;
+}
 .container1 {
   margin-top: 4% !important;
+} */
+.e {
+  /* margin-top: 5%; */
+  font-weight: 400;
 }
 .r {
-  margin: 2%;
-  color: rgb(3, 85, 139);
+  font-weight: 400;
+  /* margin: 2%; */
+  color: #2193b0;
 }
-.btn {
+.btn3 {
+  background-color: #2193b0;
+  border: #2193b0;
   color: white !important;
-  padding: 1% 7% 1% 7% !important;
-  margin-top: 1% !important;
+  padding: 1.5% 7% 1.5% 7% !important;
+  margin-top: 0.2% !important;
   margin-left: 4% !important;
 }
 .form-control,
@@ -634,18 +647,4 @@ select.form-control[multiple] {
 #contactForm .form-control {
   font-weight: 500;
   height: auto;
-}
-
-.map-container {
-  overflow-x: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
-}
-.map-container iframe {
-  left: 0;
-  top: 0;
-  height: 50%;
-  width: 100%;
-  position: absolute;
 }

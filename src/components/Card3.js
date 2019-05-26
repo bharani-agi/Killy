@@ -1,29 +1,47 @@
 import React, { Component } from "react";
 import "./Card3.css";
 class Card3 extends Component {
+  state = {};
   render() {
-    const cardData = this.props.cardData;
     return (
-      <div className="card-group">
-        {cardData.map(item => (
-          <div className="card3" key={item.id}>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card">
             <img
-              className="card3-img-top"
-              src={require("../" + item.thumb)}
-              alt={item.title}
+              class="card3-img-top"
+              src={require("../images/partnership.svg")}
+              alt="Card image cap"
             />
-            <div className="card-body">
-              <h5 className="card-title3">{item.title}</h5>
-            </div>
-            <div className="card-body">
-              <button type="button" class="btn btn-danger">
+            <div class="card-body">
+              <h5 class="card-title3">Merchant Partnership</h5>
+              <p class="card-text">
+                The partnership with our Merchant Partners.
+              </p>
+              <a href="#" class="btnn">
                 Login
-              </button>
+              </a>
             </div>
           </div>
-        ))}
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <img
+              class="card3-img-top"
+              src={require("../images/partner21.svg")}
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title3">SDK Partnership</h5>
+              <p class="card-text">The partnership with the SDK partners.</p>
+              <a href="#" class="btnn">
+                Login
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
 }
+
 export default Card3;

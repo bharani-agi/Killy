@@ -3,17 +3,20 @@ import contactUs from "./contactUs.css";
 import NavigationBar from "./Navbar";
 import ReactDOM from "react-dom";
 import Footer from "./Footer";
-import MapContainer from "./map";
+import Map from "./map";
 const ContactUs = () => {
   return (
     <React.Fragment>
       <NavigationBar />
       <section class="Material-contact-section section-padding section-dark">
-        <div class="container1">
+        <div class="container">
           <div class="row">
             {/* <!-- Section Titile --> */}
-            <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
-              <h3 class="section-title">Contact with Killy Team</h3>
+            <div
+              class="col-md-12 wow1 animated fadeInLeft"
+              data-wow-delay=".2s"
+            >
+              <h3 class="section-title e">Contact with Killy Team</h3>
             </div>
           </div>
           <div class="row">
@@ -159,7 +162,7 @@ const ContactUs = () => {
                 </div>
                 {/* <!-- Form Submit --> */}
                 <div class="form-submit mt-5">
-                  <button class="btn" type="submit" id="form-submit">
+                  <button class="btn3" type="submit" id="form-submit">
                     Send
                   </button>
                   <div id="msgSubmit" class="h3 text-center hidden" />
@@ -168,9 +171,10 @@ const ContactUs = () => {
               </form>
             </div>
           </div>
-          {/* <MapContainer /> */}
         </div>
+        <Map />
       </section>
+
       <Footer />
     </React.Fragment>
   );

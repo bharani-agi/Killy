@@ -66,7 +66,7 @@ class Footer extends Component {
                     <i class="fab fa-linkedin-in fa-lg white-text mr-4"> </i>
                   </a>
                   {/* <!--Instagram--> */}
-                  <a class="ins-ic">
+                  <a class="ins-ic" href="https://www.instagram.com/hey_killy/">
                     <i class="fab fa-instagram fa-lg white-text mr-4"> </i>
                   </a>
                   {/* <!--Pinterest--> */}
@@ -85,11 +85,11 @@ class Footer extends Component {
                 139955
               </h5>
               <h5 className="ftr mt-3 mb-4">
-                <b>Get in touch:</b>info@killy.ai
+                <b>Get in touch:</b>hello@killy.ai
               </h5>
-              <h5 className="ftr mt-3 mb-4">
+              {/* <h5 className="ftr mt-3 mb-4">
                 <b>Support:</b>support@killy.ai
-              </h5>
+              </h5> */}
             </div>
           </div>
         </div>

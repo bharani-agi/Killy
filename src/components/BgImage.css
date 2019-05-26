@@ -4,3 +4,6 @@
   background-size: cover;
   height: 720px;
 }
+.imgBtn {
+  color: red !important;
+}
