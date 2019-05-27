@@ -8,7 +8,7 @@ class Footer extends Component {
       <footer className="page-footer font-small indigo">
         <div className="container text-center text-md-left">
           <div className="row">
-            <div className="alk1 col-md-4 mx-auto">
+            <div className="alk1 col-md-3 mx-auto">
               <ul className="list-unstyled">
                 <li>
                   <a className="lk" href="#!">
@@ -37,10 +37,25 @@ class Footer extends Component {
                 </li>
               </ul>
             </div>
+            <hr className="clearfix w-100 d-md-none" />
+            {/* <div class="row d-flex justify-content-cente"> */}
+            {/* <!--Grid column--> */}
+            <div class="col-md-3 mx-auto">
+              {/* <!-- Video --> */}
+              <div class="embed-responsive embed-responsive-16by9 mb-4">
+                <iframe
+                  class="embed-responsive-item"
+                  src="https://www.youtube.com/embed/vlDzYIIOYmM"
+                  allowfullscreen
+                />
+              </div>
+              {/* </div> */}
+              {/* <!--Grid column--> */}
+            </div>
 
             <hr className="clearfix w-100 d-md-none" />
 
-            <div className="alk2 col-md-4 mx-auto">
+            <div className="alk2 col-md-3 mx-auto">
               <div class="col-md-12">
                 <div class="mb-5 flex-center">
                   {/* <!-- Facebook --> */}
@@ -79,12 +94,12 @@ class Footer extends Component {
 
             <hr className="clearfix w-100 d-md-none" />
 
-            <div className="ftrmgr col-md-4 mx-auto">
-              <h5 className="ftr mt-3 mb-4">
+            <div className="ftrmgr col-md-3 mx-auto">
+              <h5 className="ftr mt-3 mb-3">
                 <b>We are at:</b>79 Ayer Rajah Crescent, #05-03, Singapore
                 139955
               </h5>
-              <h5 className="ftr mt-3 mb-4">
+              <h5 className="ftr mt-3 mb-3">
                 <b>Get in touch:</b>hello@killy.ai
               </h5>
               {/* <h5 className="ftr mt-3 mb-4">

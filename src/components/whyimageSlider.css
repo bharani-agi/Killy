@@ -19,6 +19,8 @@
   /* margin-left: %; */
 }
 .slick-track {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   height: 300px;
   padding-top: 40px;
 }

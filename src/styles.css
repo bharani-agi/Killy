@@ -18,9 +18,9 @@
   border: 1px solid #6dd5ed;
   background-image: linear-gradient(#6dd5ed, #2193b0);
 }
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
   .section {
-    width: 50?%;
+    width: 100%;
   }
   .whyTitle {
     margin-left: 25%;
@@ -31,8 +31,8 @@
 }
 @media screen and (max-width: 600px) {
   .section {
-    width: 100%;
-    /* margin-left: 16% !important; */
+    width: 50%;
+    margin-left: 16% !important;
   }
   .whyTitle {
     margin-left: 20%;
@@ -41,4 +41,9 @@
     margin-left: 1% !important;
     padding: 1% 2%;
   }
+} */
+
+.embed-responsive-item {
+  height: 50%;
+  width: 50%;
 }

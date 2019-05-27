@@ -2,8 +2,12 @@
   background: url("../images/BgImage.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-size: contain;
   height: 720px;
 }
-.imgBtn {
-  color: red !important;
+.embed-responsive {
+  height: 71vh;
+  width: 54.5%;
+  margin-top: 50%;
+  margin-left: -59%;
 }

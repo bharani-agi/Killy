@@ -19,9 +19,26 @@ class Main extends Component {
       <React.Fragment>
         <NavigationBar />
         <div>
-          <div className="ImgProp" />
+          <div className="ImgProp">
+            <div class="row d-flex justify-content-cente">
+              {/* <!--Grid column--> */}
+              <div class="col-md-4  mx-auto">
+                {/* <!-- Video --> */}
+                <div class="embed-responsive embed-responsive-16by9 mb-4">
+                  <iframe
+                    class="embed-responsive-item"
+                    src="https://www.youtube.com/embed/vlDzYIIOYmM"
+                    allowfullscreen
+                  />
+                </div>
+              </div>
+            </div>
+            {/* <!--Grid column--> */}
+          </div>
           <div>
-            <Button color="primary">Chat with Killy</Button>
+            <Button className="imgBtn" color="primary">
+              Chat with Killy
+            </Button>
           </div>
           <div style={{ paddingTop: "9vh" }}>
             <Section title="Why Choose Killy" />
