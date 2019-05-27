@@ -19,26 +19,32 @@ class Main extends Component {
       <React.Fragment>
         <NavigationBar />
         <div>
-          <div className="ImgProp">
-            <div class="row d-flex justify-content-cente">
+          <div className="ImgProp" />
+          <div>
+            <Button className="imgBtn" color="primary">
+              Talk with Killy
+            </Button>
+          </div>
+          <div class="container">
+            {/* <!--Grid row--> */}
+            <div class="row d-flex justify-content-center">
               {/* <!--Grid column--> */}
-              <div class="col-md-4  mx-auto">
+              <div class="col-md-6">
                 {/* <!-- Video --> */}
                 <div class="embed-responsive embed-responsive-16by9 mb-4">
                   <iframe
-                    class="embed-responsive-item"
-                    src="https://www.youtube.com/embed/vlDzYIIOYmM"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/wm4uuQluE6I"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
                   />
                 </div>
               </div>
+              {/* <!--Grid column--> */}
             </div>
-            {/* <!--Grid column--> */}
-          </div>
-          <div>
-            <Button className="imgBtn" color="primary">
-              Chat with Killy
-            </Button>
+            {/* <!--Grid row--> */}
           </div>
           <div style={{ paddingTop: "9vh" }}>
             <Section title="Why Choose Killy" />

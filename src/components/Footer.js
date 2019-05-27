@@ -37,22 +37,7 @@ class Footer extends Component {
                 </li>
               </ul>
             </div>
-            <hr className="clearfix w-100 d-md-none" />
-            {/* <div class="row d-flex justify-content-cente"> */}
-            {/* <!--Grid column--> */}
-            <div class="col-md-3 mx-auto">
-              {/* <!-- Video --> */}
-              <div class="embed-responsive embed-responsive-16by9 mb-4">
-                <iframe
-                  class="embed-responsive-item"
-                  src="https://www.youtube.com/embed/vlDzYIIOYmM"
-                  allowfullscreen
-                />
-              </div>
-              {/* </div> */}
-              {/* <!--Grid column--> */}
-            </div>
-
+          
             <hr className="clearfix w-100 d-md-none" />
 
             <div className="alk2 col-md-3 mx-auto">
