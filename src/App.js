@@ -15,6 +15,7 @@ class App extends Component {
       <BrowserRouter>
         <div>
           <Route exact path="/" component={Main} />
+          <Route exact path="/Main" component={Main} />
           <Route exact path="/privatePolicy" component={PrivatePolicy} />
           <Route exact path="/termsConditions" component={TermsConditions} />
           <Route exact path="/appPermission" component={AppPermissions} />

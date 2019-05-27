@@ -2,13 +2,30 @@
   background: url("../images/Upperimage1.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-size: contain;
-  height: 720px;
+  background-position: center center;
+  height: 100vh;
 }
 .embed-responsive {
-  /* height: 71vh; */
-  /* width: 54.5%; */
   margin-top: 5vh;
   margin-bottom: 2vh;
-  /* margin-left: -59%; */
+}
+@media screen and (max-width: 992px) {
+  .ImgProp {
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ImgProp {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+  }
 }

@@ -11,7 +11,7 @@ class Footer extends Component {
             <div className="alk1 col-md-3 mx-auto">
               <ul className="list-unstyled">
                 <li>
-                  <a className="lk" href="#!">
+                  <a className="lk" href="/Main">
                     Home
                   </a>
                 </li>
@@ -26,18 +26,24 @@ class Footer extends Component {
                   </a>
                 </li>
                 <li>
-                  <a className="lk" href="/privatePolicy">
+                  <a
+                    className="lk"
+                    href="https://killy.netlify.com/privatePolicy"
+                  >
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a className="lk" href="/termsConditions">
+                  <a
+                    className="lk"
+                    href="https://killy.netlify.com/termsConditions"
+                  >
                     Terms & Conditions
                   </a>
                 </li>
               </ul>
             </div>
-          
+
             <hr className="clearfix w-100 d-md-none" />
 
             <div className="alk2 col-md-3 mx-auto">

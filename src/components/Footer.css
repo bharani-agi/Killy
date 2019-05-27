@@ -7,9 +7,11 @@
 }
 .ftr {
   color: white;
+  font-weight: 400;
 }
 .lk {
   color: white;
+  font-weight: 400;
 }
 .alk1 {
   margin-left: 16%;
@@ -17,11 +19,8 @@
 }
 .alk {
   margin-top: 4%;
+  font-weight: 400;
 }
 .alk2 {
   margin-top: 7%;
-}
-.embed-responsive-item {
-  height: 50%;
-  width: 50%;
 }

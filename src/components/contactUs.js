@@ -8,7 +8,7 @@ const ContactUs = () => {
   return (
     <React.Fragment>
       <NavigationBar />
-      <section class="Material-contact-section section-padding section-dark">
+      <section class="Material-contact-section section-padding section-light">
         <div class="container">
           <div class="row">
             {/* <!-- Section Titile --> */}
@@ -33,20 +33,20 @@ const ContactUs = () => {
               </p> */}
 
               <div class="find-widget">
-                Company: <a href="#">Killy</a>
+                <b>Company:</b> <a href="#">Killy</a>
               </div>
               <div class="find-widget">
-                Address:{" "}
+                <b>Address:</b>{" "}
                 <a href="#">
                   Block 79, AStart Central, Ayer Rajah Crescent, #05-03 ,
                   Singapore 139955
                 </a>
               </div>
-              <div class="find-widget">
-                Phone: <b>+ +65 96531921</b>
+              <div class="find-widget" style={{ fontWeight: "600" }}>
+                Phone:+65 96531921
               </div>
 
-              <div class="find-widget">
+              <div class="find-widget1">
                 Email: <a href="#">hello@killy.ai</a>
               </div>
               {/* <div class="find-widget">
@@ -60,7 +60,7 @@ const ContactUs = () => {
                   class="col-md-12 wow animated fadeInLeft"
                   data-wow-delay=".2s"
                 >
-                  <h3 class="section-title r">Leave Message</h3>
+                  <h2 class="section-title r">Leave Message</h2>
                 </div>
               </div>
               <form
@@ -154,6 +154,7 @@ const ContactUs = () => {
                     class="form-control"
                     rows="3"
                     id="message"
+                    placeholder="Enter Message here"
                     name="message"
                     required
                     data-error="Write your message"
@@ -165,8 +166,10 @@ const ContactUs = () => {
                   <button class="btn3" type="submit" id="form-submit">
                     Send
                   </button>
+
                   <div id="msgSubmit" class="h3 text-center hidden" />
                   <div class="clearfix" />
+                  <p style={{ marginTop: "-1%" }}>*These field are required</p>
                 </div>
               </form>
             </div>

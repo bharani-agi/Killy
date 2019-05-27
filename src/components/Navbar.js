@@ -37,7 +37,7 @@ export default class NavigationBar extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink className="LinkColor" href="/components/">
+                <NavLink className="LinkColor" href="/Main">
                   Home
                 </NavLink>
               </NavItem>
@@ -52,15 +52,15 @@ export default class NavigationBar extends React.Component {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="LinkColor" href="/privatePolicy">
-                  Privacy Policy
+                <NavLink className="LinkColor" href="#">
+                  Social Media Links
                 </NavLink>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <NavLink className="LinkColor" href="/termsConditions">
                   Terms and Conditions
                 </NavLink>
-              </NavItem>
+              </NavItem> */}
             </Nav>
           </Collapse>
         </Navbar>

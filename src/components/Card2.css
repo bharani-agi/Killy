@@ -25,18 +25,18 @@
 
 @media screen and (max-width: 992px) {
   .card-group {
-    width: 50%;
+    /* width: 50%; */
   }
 }
 @media screen and (max-width: 768px) {
   .card-group {
-    width: 75%;
-    margin-left: 22% !important;
+    /* width: 75%; */
+    /* margin-left: 22% !important; */
   }
 }
 @media screen and (max-width: 600px) {
   .card-group {
-    width: 100%;
+    /* width: 100%; */
     margin-left: 27% !important;
   }
 }

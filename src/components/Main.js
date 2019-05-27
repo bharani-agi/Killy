@@ -26,11 +26,8 @@ class Main extends Component {
             </Button>
           </div>
           <div class="container">
-            {/* <!--Grid row--> */}
             <div class="row d-flex justify-content-center">
-              {/* <!--Grid column--> */}
               <div class="col-md-6">
-                {/* <!-- Video --> */}
                 <div class="embed-responsive embed-responsive-16by9 mb-4">
                   <iframe
                     width="560"
@@ -42,9 +39,7 @@ class Main extends Component {
                   />
                 </div>
               </div>
-              {/* <!--Grid column--> */}
             </div>
-            {/* <!--Grid row--> */}
           </div>
           <div style={{ paddingTop: "9vh" }}>
             <Section title="Why Choose Killy" />
