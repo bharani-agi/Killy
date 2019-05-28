@@ -8,7 +8,7 @@ class Footer extends Component {
       <footer className="page-footer font-small indigo">
         <div className="container text-center text-md-left">
           <div className="row">
-            <div className="alk1 col-md-3 mx-auto">
+            <div className="alk1 col-md-4 mx-auto">
               <ul className="list-unstyled">
                 <li>
                   <a className="lk" href="/Main">
@@ -40,7 +40,7 @@ class Footer extends Component {
 
             <hr className="clearfix w-100 d-md-none" />
 
-            <div className="alk2 col-md-3 mx-auto">
+            <div className="alk2 col-md-4 mx-auto">
               <div class="col-md-12">
                 <div class="mb-5 flex-center">
                   {/* <!-- Facebook --> */}
@@ -79,13 +79,19 @@ class Footer extends Component {
 
             <hr className="clearfix w-100 d-md-none" />
 
-            <div className="ftrmgr col-md-3 mx-auto">
+            <div className="ftrmgr col-md-4 mx-auto">
               <h5 className="ftr mt-3 mb-3">
                 <b>We are at : </b>79 Ayer Rajah Crescent, #05-03, Singapore
                 139955
               </h5>
               <h5 className="ftr mt-3 mb-3">
-                <b>Get in touch : </b>hello@killy.ai
+                <b>Get in touch : </b>
+                <a
+                  href="#"
+                  style={{ textDecoration: "underline", color: "#2193b0" }}
+                >
+                  hello@killy.ai
+                </a>
               </h5>
               {/* <h5 className="ftr mt-3 mb-4">
                 <b>Support:</b>support@killy.ai

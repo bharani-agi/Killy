@@ -32,6 +32,7 @@ const ContactUs = () => {
                 normal distribution of letters, as opposed to using Content.
               </p> */}
 
+              <div class="find-widget" />
               <div class="find-widget">
                 <p style={{ color: "white" }}>
                   {" "}
@@ -52,12 +53,13 @@ const ContactUs = () => {
                   <a
                     href="mailto:hello@agitechnosys.com?Subject=Hello"
                     target="_top"
-                    style={{ marginTop: "5%", textDecoration: "underline" }}
+                    style={{ color: "white", marginTop: "5%" }}
                   >
                     hello@killy.ai
                   </a>{" "}
                 </p>
               </div>
+
               {/* <div class="find-widget">
               Program: <a href="#">Mon to Sat: 09:30 AM - 10.30 PM</a>
             </div> */}
@@ -85,14 +87,14 @@ const ContactUs = () => {
                   <div class="col-md-6">
                     <div class="form-group">
                       <label for="form_name" class="label">
-                        First Name *
+                        Firstname *
                       </label>
                       <input
                         id="form_name"
                         type="text"
                         name="name"
                         class="form-control"
-                        placeholder="Please enter your first name "
+                        placeholder="Please enter your firstname *"
                         required="required"
                         data-error="Firstname is required."
                       />
@@ -102,14 +104,14 @@ const ContactUs = () => {
                   <div class="col-md-6">
                     <div class="form-group">
                       <label for="form_lastname" class="label">
-                        Last Name *
+                        Lastname *
                       </label>
                       <input
                         id="form_lastname"
                         type="text"
                         name="surname"
                         class="form-control"
-                        placeholder="Please enter your last name "
+                        placeholder="Please enter your lastname *"
                         required="required"
                         data-error="Lastname is required."
                       />
@@ -160,7 +162,6 @@ const ContactUs = () => {
                     Message *
                   </label>
                   <textarea
-                    style={{ marginLeft: "2.2%" }}
                     class="form-control"
                     rows="3"
                     id="message"

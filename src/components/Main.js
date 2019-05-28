@@ -1,16 +1,17 @@
 import React, { Component } from "react";
 import NavigationBar from "./Navbar";
+// import newNav from "./Navnew";
 import Section from "./Sections";
 import WhyImagesList from "./whyImagesList";
 import CardList from "./CardList";
-import PlatformsImagesList from "./PlatformsImagesList";
+// import PlatformsImagesList from "./PlatformsImagesList";
 import Footer from "./Footer";
 import "./BgImage.css";
 // import PartnerList from "./partnerList";
 import { Button } from "reactstrap";
 import WhyImageSlider from "./whyimageSlider";
 import Card3 from "./Card3";
-import Card4 from "./Card4";
+// import Card4 from "./Card4";
 // import OurPartnerSlider from "./ourpartnerSlider";
 import PlatformSlider from "./platformSlider";
 class Main extends Component {
@@ -50,6 +51,7 @@ class Main extends Component {
             <Section title="Our Partners" />
             <Card3 />
             <Section title="Platforms" className="path" />
+            <div className="ImgProp4" />
             <PlatformSlider />
             <Footer />
           </div>
