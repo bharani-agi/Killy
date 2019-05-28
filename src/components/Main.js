@@ -10,6 +10,7 @@ import "./BgImage.css";
 import { Button } from "reactstrap";
 import WhyImageSlider from "./whyimageSlider";
 import Card3 from "./Card3";
+import Card4 from "./Card4";
 // import OurPartnerSlider from "./ourpartnerSlider";
 import PlatformSlider from "./platformSlider";
 class Main extends Component {

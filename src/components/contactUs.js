@@ -33,21 +33,27 @@ const ContactUs = () => {
               </p> */}
 
               <div class="find-widget">
-                <b>Company:</b> <a href="#">Killy</a>
+                <b>Company:</b>{" "}
+                <a href="#" style={{ color: "white" }}>
+                  AGi Technosys
+                </a>
               </div>
               <div class="find-widget">
                 <b>Address:</b>{" "}
-                <a href="#">
+                <a href="#" style={{ color: "white" }}>
                   Block 79, AStart Central, Ayer Rajah Crescent, #05-03 ,
                   Singapore 139955
                 </a>
               </div>
-              <div class="find-widget" style={{ fontWeight: "600" }}>
-                Phone:+65 96531921
+              <div class="find-widget">
+                <b>Phone:</b> <a style={{ color: "white" }}>+65 96531921</a>
               </div>
 
               <div class="find-widget1">
-                Email: <a href="#">hello@killy.ai</a>
+                <b> Email:</b>
+                <a href="#" style={{ color: "white", marginTop: "5%" }}>
+                  hello@killy.ai
+                </a>
               </div>
               {/* <div class="find-widget">
               Program: <a href="#">Mon to Sat: 09:30 AM - 10.30 PM</a>

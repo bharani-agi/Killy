@@ -21,23 +21,17 @@ class Footer extends Component {
                   </a>
                 </li>
                 <li>
-                  <a className="lk" href="#!">
+                  <a className="lk" href="/contactUs">
                     Contact Us
                   </a>
                 </li>
                 <li>
-                  <a
-                    className="lk"
-                    href="https://killy.netlify.com/privatePolicy"
-                  >
+                  <a className="lk" href="/privacyPolicy">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a
-                    className="lk"
-                    href="https://killy.netlify.com/termsConditions"
-                  >
+                  <a className="lk" href="/termsandconditions">
                     Terms & Conditions
                   </a>
                 </li>
@@ -87,11 +81,11 @@ class Footer extends Component {
 
             <div className="ftrmgr col-md-3 mx-auto">
               <h5 className="ftr mt-3 mb-3">
-                <b>We are at:</b>79 Ayer Rajah Crescent, #05-03, Singapore
+                <b>We are at : </b>79 Ayer Rajah Crescent, #05-03, Singapore
                 139955
               </h5>
               <h5 className="ftr mt-3 mb-3">
-                <b>Get in touch:</b>hello@killy.ai
+                <b>Get in touch : </b>hello@killy.ai
               </h5>
               {/* <h5 className="ftr mt-3 mb-4">
                 <b>Support:</b>support@killy.ai
@@ -102,10 +96,7 @@ class Footer extends Component {
 
         <div className="footer-copyright text-center py-3">
           © 2018 Copyright:
-          <a href="https://mdbootstrap.com/education/bootstrap/">
-            {" "}
-            KillychatApp.com
-          </a>
+          <a href="#"> KillychatApp.com</a>
         </div>
       </footer>
     );

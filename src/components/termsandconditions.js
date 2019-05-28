@@ -1,7 +1,12 @@
 import React from "react";
-const TermsConditions = () => {
+import NavigationBar from "./Navbar";
+const termsandconditions = () => {
   return (
+    // <Navbar />
+    // <NavigationBar />
+
     <div style={{ margin: "2%" }}>
+      <NavigationBar />
       <h3 style={{ marginLeft: "2%", marginRight: "2%" }}>
         TERMS & CONDITIONS
       </h3>
@@ -533,4 +538,4 @@ const TermsConditions = () => {
   );
 };
 
-export default TermsConditions;
+export default termsandconditions;

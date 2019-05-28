@@ -1,7 +1,9 @@
 import React from "react";
+import NavigationBar from "./Navbar";
 const PrivatePolicy = () => {
   return (
     <div style={{ margin: "2%" }}>
+      <NavigationBar />
       <h3 style={{ marginLeft: "2%", marginRight: "2%" }}>PRIVACY POLICY</h3>
       <p style={{ marginLeft: "2%", marginRight: "2%" }}>
         We at Killy, a brand of AGi Technosys Private Limited (referred to as
