@@ -1,0 +1,61 @@
+.ImgProp {
+  background: url("../images/Upperimage1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+.embed-responsive {
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+}
+@media screen and (max-width: 992px) {
+  .ImgProp {
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ImgProp {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    max-width: 100%;
+  }
+}
+.imgBtm {
+  margin-top: -10% !important;
+  /* margin-left: -8.5% !important; */
+  /* margin-right: -80% !important; */
+  /* height: 400px; */
+  max-width: 100%;
+}
+.imgMid {
+  height: 50% !important;
+  width: 50% !important;
+  margin-left: 40%;
+}
+.ImgProp4 {
+  margin-top: -10%;
+}
+
+/* .services {
+  background: url("../images/cirrec.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  opacity: 0.8;
+  background-position: center center;
+  height: 100vh;
+  z-index: 0 !important;
+} */
+.cirrec {
+  margin-top: -60%;
+  opacity: 0.8;
+}
