@@ -58,7 +58,7 @@ export default class NavigationBar extends React.Component {
                 <NavItem>
                   <NavLink
                     className="LinkColor navItem social_icon ml-auto"
-                    href="#"
+                    href="https://www.facebook.com/heykilly"
                   >
                     <a
                       className="fb-ic"
@@ -71,7 +71,7 @@ export default class NavigationBar extends React.Component {
                 <NavItem>
                   <NavLink
                     className="LinkColor navItem social_icon ml-auto"
-                    href="#"
+                    href="https://twitter.com/HeyKilly"
                   >
                     <a className="tw-ic" href="https://twitter.com/HeyKilly">
                       <i className="fab fa-twitter fa-lg white-text "> </i>
@@ -82,7 +82,7 @@ export default class NavigationBar extends React.Component {
                 <NavItem>
                   <NavLink
                     className="LinkColor navItem social_icon ml-auto"
-                    href="#"
+                    href="https://www.youtube.com/channel/UCDaRE5WFvp6KBrGNYXVs6jg?view_as=public"
                   >
                     <a
                       className="ytube-ic"
@@ -95,7 +95,7 @@ export default class NavigationBar extends React.Component {
                 <NavItem>
                   <NavLink
                     className="LinkColor navItem social_icon ml-auto"
-                    href="#"
+                    href="https://www.linkedin.com/company/killy/"
                   >
                     <a
                       className="li-ic"
@@ -108,7 +108,7 @@ export default class NavigationBar extends React.Component {
                 <NavItem>
                   <NavLink
                     className="LinkColor navItem social_icon ml-auto"
-                    href="#"
+                    href="https://www.instagram.com/hey_killy/"
                   >
                     <a
                       className="ins-ic"
@@ -119,7 +119,10 @@ export default class NavigationBar extends React.Component {
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="LinkColor navItem social_icon" href="#">
+                  <NavLink
+                    className="LinkColor navItem social_icon"
+                    href="https://www.pinterest.com/HeyKilly/"
+                  >
                     <a
                       className="pin-ic"
                       href="https://www.pinterest.com/HeyKilly/"
