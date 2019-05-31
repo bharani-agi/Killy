@@ -136,7 +136,7 @@ const aboutUs = () => {
             <div class="col-md-4">
               <div class="view overlay">
                 <img
-                  src={require("../images/multi.svg")}
+                  src={require("../images/multi-Recovered.png")}
                   class=""
                   alt="smaple image"
                 />

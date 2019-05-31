@@ -23,7 +23,7 @@ class Main extends Component {
         <div>
           <div className="ImgProp" />
           <div>
-            <Button className="imgBtn" color="primary">
+            <Button className="imgBtn" color="primary" href="/contactUs">
               Talk with Killy
             </Button>
           </div>
