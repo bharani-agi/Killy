@@ -14,9 +14,9 @@ class Card3 extends Component {
             />
             <div class="card-body">
               <h5 class="card-title3">Merchant Partnership</h5>
-              <p class="card-text">
+              {/* <p class="card-text">
                 The partnership with our Merchant Partners.
-              </p>
+              </p> */}
               <a href="#" class="btnn">
                 Login
               </a>
@@ -32,7 +32,7 @@ class Card3 extends Component {
             />
             <div class="card-body">
               <h5 class="card-title3">SDK Partnership</h5>
-              <p class="card-text">The partnership with the SDK partners.</p>
+              {/* <p class="card-text">The partnership with the SDK partners.</p> */}
               <a href="#" class="btnn">
                 Login
               </a>
