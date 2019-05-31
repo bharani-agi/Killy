@@ -14,7 +14,7 @@ class Card3 extends Component {
             />
             <div class="card-body">
               <h5 class="card-title3">Merchant Partnership</h5>
-              <p class="card-text" style={{ padding: "1.5%" }}>
+              <p class="card-text" style={{ marginBottom: "5%" }}>
                 Join leading brands offering their services on multiple
                 platforms used by Killy
               </p>
@@ -33,7 +33,7 @@ class Card3 extends Component {
             />
             <div class="card-body">
               <h5 class="card-title3">SDK Partnership</h5>
-              <p class="card-text" style={{ padding: "1.5%" }}>
+              <p class="card-text" style={{ marginBottom: "5%" }}>
                 Sell smart with an AI. Offer the services of Killy on your
                 platform.
               </p>
