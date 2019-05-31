@@ -11,6 +11,7 @@
 .btnn {
   padding: 2% 5%;
   border-radius: 3%;
+  border: blue;
   background-color: #2193b0;
   color: white;
 }
