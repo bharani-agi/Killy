@@ -29,14 +29,14 @@ class Main extends Component {
           </div>
 
           <div className="row d-flex justify-content-center">
-            <div className="col-md-4">
+            <div className="col-md-4 eT">
               <img
                 src={require("../images/earth.svg")}
                 style={{ width: "50%", marginLeft: "-30%" }}
                 alt="Pic"
               />
             </div>
-            <div className="col-md-6" style={{ marginLeft: "-25%" }}>
+            <div className="col-md-6 vdo" style={{ marginLeft: "-25%" }}>
               <div className="embed-responsive embed-responsive-16by9 mb-4">
                 <iframe
                   width="560"

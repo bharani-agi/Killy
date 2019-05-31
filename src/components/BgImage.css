@@ -18,6 +18,9 @@
     height: 100vh;
     max-width: 100%;
   }
+  .vdo {
+    margin-left: 4% !important;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -28,12 +31,16 @@
     height: 100vh;
     max-width: 100%;
   }
+  .vdo {
+    margin-left: 3% !important;
+    margin-top: -28% !important;
+  }
+  .eT {
+    margin-left: 30% !important;
+  }
 }
 .imgBtm {
   margin-top: -10% !important;
-  /* margin-left: -8.5% !important; */
-  /* margin-right: -80% !important; */
-  /* height: 400px; */
   max-width: 100%;
 }
 .imgMid {
@@ -45,17 +52,8 @@
   margin-top: -10%;
 }
 
-/* .services {
-  background: url("../images/cirrec.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
-  opacity: 0.8;
-  background-position: center center;
-  height: 100vh;
-  z-index: 0 !important;
-} */
 .cirrec {
   margin-top: -60%;
   opacity: 0.8;
+  z-index: -1;
 }

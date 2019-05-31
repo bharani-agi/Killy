@@ -18,7 +18,7 @@
   margin: -450px auto 50px !important;
 } */
 .slr {
-  margin-top: -40% !important;
+  margin-top: -45% !important;
 }
 .slick-track {
   height: 300px;
@@ -80,8 +80,8 @@
   margin-left: 0;
   bottom: 12px;
 }
-.slick-dots li button {
-}
+/* .slick-dots li button {
+} */
 .slick-thumb {
   bottom: -45px;
 }

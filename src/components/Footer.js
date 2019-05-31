@@ -102,7 +102,7 @@ class Footer extends Component {
 
         <div className="footer-copyright text-center py-3">
           © 2018 Copyright:
-          <a href="#"> KillychatApp.com</a>
+          <a href="#">AGi Technosys Pte Ltd</a>
         </div>
       </footer>
     );
