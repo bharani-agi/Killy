@@ -57,3 +57,10 @@
   opacity: 0.8;
   z-index: -1;
 }
+.xyz {
+  margin-top: -40%;
+}
+.bnr {
+  width: 800px !important;
+  height: 500px !important;
+}

@@ -7,6 +7,9 @@
   padding: 10px 13px !important;
   /* margin-top: 30% !important; */
 }
+/* .caret {
+  color: #fff !important;
+} */
 
 .LinkColor:hover {
   background-color: #2193b0;
@@ -25,10 +28,21 @@
   font-weight: 700;
   font-size: 25px;
 }
+.logoHeading {
+  font-size: 12px;
+  margin-left: 30% !important;
+  font-weight: lighter;
+}
+.Title {
+  margin-left: 15% !important;
+  margin-top: -30% !important;
+  line-height: 0.5;
+}
 
 .d-inline-block {
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
+  margin-top: 2% !important;
   /* margin-left: 14%; */
 }
 

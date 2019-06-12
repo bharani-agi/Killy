@@ -1,19 +1,14 @@
 import React, { Component } from "react";
 import NavigationBar from "./Navbar";
-// import newNav from "./Navnew";
 import Section from "./Sections";
-// import WhyImagesList from "./whyImagesList";
 import CardList from "./CardList";
-// import PlatformsImagesList from "./PlatformsImagesList";
 import Footer from "./Footer";
 import "./BgImage.css";
-// import PartnerList from "./partnerList";
 import { Button } from "reactstrap";
 import WhyImageSlider from "./whyimageSlider";
 import Card3 from "./Card3";
-// import Card4 from "./Card4";
-// import OurPartnerSlider from "./ourpartnerSlider";
 import PlatformSlider from "./platformSlider";
+// import DropDown from "./dropDown";
 class Main extends Component {
   state = {};
   render() {
@@ -33,6 +28,11 @@ class Main extends Component {
               <img
                 src={require("../images/earth.svg")}
                 style={{ width: "50%", marginLeft: "-30%" }}
+                alt="Pic"
+              />
+              <img
+                src={require("../images/earth.svg")}
+                style={{ width: "50%", marginLeft: "180%" }}
                 alt="Pic"
               />
             </div>
@@ -62,13 +62,27 @@ class Main extends Component {
               
             </div> */}
             <CardList />
+            <Section title="Platforms" className="path" />
+            <PlatformSlider />
+            {/* <Section title="New Section" /> */}
+            {/* <FollowButtons /> */}
             <Section title="Our Partners" />
             <Card3 />
-            <Section title="Platforms" className="path" />
+            <Section title="Investor Connect" />
+            <iframe
+              src="https://www.investmentnetwork.sg/embed/932393/300x250"
+              width="300"
+              height="250"
+              frameborder="0"
+              style={{ marginLeft: "38%", marginTop: "3%" }}
+            >
+              <p>Your browser does not support iframe</p>
+            </iframe>
+            {/* <Section title="Platforms" className="path" /> */}
             <div className="xyz">
               <img className="imgBtm" src={require("../images/earthP.svg")} />
             </div>
-            <PlatformSlider />
+            {/* <PlatformSlider /> */}
             <Footer />
           </div>
         </div>

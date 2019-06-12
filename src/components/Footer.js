@@ -44,17 +44,26 @@ class Footer extends Component {
               <div class="col-md-12">
                 <div class="mb-5 flex-center">
                   {/* <!-- Facebook --> */}
-                  <a class="fb-ic" href="https://www.facebook.com/heykilly">
+                  <a
+                    class="fb-ic"
+                    href="https://www.facebook.com/heykilly"
+                    target="_blank"
+                  >
                     <i class="fab fa-facebook-f fa-lg white-text mr-4"> </i>
                   </a>
                   {/* <!-- Twitter --> */}
-                  <a class="tw-ic" href="https://twitter.com/HeyKilly">
+                  <a
+                    class="tw-ic"
+                    href="https://twitter.com/HeyKilly"
+                    target="_blank"
+                  >
                     <i class="fab fa-twitter fa-lg white-text mr-4"> </i>
                   </a>
                   {/* <!-- Google +--> */}
                   <a
                     class="ytube-ic"
                     href="https://www.youtube.com/channel/UCDaRE5WFvp6KBrGNYXVs6jg?view_as=public"
+                    target="_blank"
                   >
                     <i class="fab fa-youtube fa-lg white-text mr-4" />
                   </a>
@@ -62,17 +71,39 @@ class Footer extends Component {
                   <a
                     class="li-ic"
                     href="https://www.linkedin.com/company/killy"
+                    target="_blank"
                   >
                     <i class="fab fa-linkedin-in fa-lg white-text mr-4"> </i>
                   </a>
                   {/* <!--Instagram--> */}
-                  <a class="ins-ic" href="https://www.instagram.com/hey_killy/">
+                  <a
+                    class="ins-ic"
+                    href="https://www.instagram.com/hey_killy/"
+                    target="_blank"
+                  >
                     <i class="fab fa-instagram fa-lg white-text mr-4"> </i>
                   </a>
                   {/* <!--Pinterest--> */}
-                  <a class="pin-ic" href="https://www.pinterest.com/HeyKilly/">
+                  <a
+                    class="pin-ic"
+                    href="https://www.pinterest.com/HeyKilly/"
+                    target="_blank"
+                  >
                     <i class="fab fa-pinterest fa-lg white-text"> </i>
                   </a>
+                  {/* <a
+                    href="https://www.f6s.com/killy?follow=1"
+                    target="_blank"
+                    title="Follow Killy on F6S"
+                  >
+                    <img
+                      src="https://www.f6s.com/images/f6s-follow-white.png"
+                      width="78"
+                      height="22 "
+                      alt="Follow Killy on F6S"
+                      // style="width: 78px; height: 22px; padding: 0px; margin: 0px;"
+                    />
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -81,15 +112,12 @@ class Footer extends Component {
 
             <div className="ftrmgr col-md-4 mx-auto">
               <h5 className="ftr mt-3 mb-3">
-                <b>We are at : </b>79 Ayer Rajah Crescent, #05-03, Singapore
-                139955
+                <b>We are at : </b>Block 79 Ayer Rajah Crescent, #05-03,
+                Singapore 139955
               </h5>
               <h5 className="ftr mt-3 mb-3">
                 <b>Get in touch : </b>
-                <a
-                  href="#"
-                  style={{ textDecoration: "underline", color: "#2193b0" }}
-                >
+                <a href="#" style={{ textDecoration: "underline" }}>
                   hello@killy.ai
                 </a>
               </h5>

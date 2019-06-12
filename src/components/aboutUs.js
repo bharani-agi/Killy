@@ -82,7 +82,7 @@ const aboutUs = () => {
             </div>
           </div>
         </div>
-        <div class="container">
+        <div class="container" style={{ marginTop: "8%" }}>
           <div class="row" style={{ marginLeft: "5%" }}>
             <div class="col-md-4">
               <div class="view overlay">

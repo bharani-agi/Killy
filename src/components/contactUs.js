@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import NavigationBar from "./Navbar";
 import Footer from "./Footer";
-import Map from "./map";
+// import Map from "./map";
 import * as EmailValidator from "email-validator";
 import axios from "axios";
 class ContactUs extends Component {
@@ -116,7 +116,7 @@ class ContactUs extends Component {
                 className="col-md-12 wow1 animated fadeInLeft"
                 data-wow-delay=".2s"
               >
-                <h3 className="section-title e">Contact with Killy Team</h3>
+                <h3 className="section-title e">Contact Us</h3>
               </div>
             </div>
             <div className="row">
@@ -146,7 +146,7 @@ class ContactUs extends Component {
                     Ayer Rajah Crescent, #05-03 ,<br />
                     Singapore 139955
                     <br />
-                    <strong>Ph: 65 9653 1921</strong>
+                    <strong>Ph: +65 9653 1921</strong>
                     <br />
                     Email:{" "}
                     <a
@@ -163,7 +163,7 @@ class ContactUs extends Component {
             </div> */}
               </div>
               {/* <!-- contact form --> */}
-              <div
+              {/* <div
                 className="col-md-6 wow animated fadeInRight"
                 data-wow-delay=".2s"
               >
@@ -174,10 +174,10 @@ class ContactUs extends Component {
                   >
                     <h2 className="section-title r">Leave Message</h2>
                   </div>
-                </div>
-                <form className="shake" onSubmit={this.handleSubmit}>
-                  {/* <!-- Name --> */}
-                  <div className="row">
+                </div> */}
+              {/* <form className="shake" onSubmit={this.handleSubmit}> */}
+              {/* <!-- Name --> */}
+              {/* <div className="row">
                     <div className="col-md-6">
                       <div className="form-group">
                         <label htmlFor="firstname" className="label">
@@ -214,9 +214,9 @@ class ContactUs extends Component {
                         <div>{this.state.errors.lastname}</div>
                       </div>
                     </div>
-                  </div>
-                  {/* <!-- email --> */}
-                  <div className="row">
+                  </div> */}
+              {/* <!-- email --> */}
+              {/* <div className="row">
                     <div className="col-md-6">
                       <div className="form-group">
                         <label htmlFor="email" className="label">
@@ -253,9 +253,9 @@ class ContactUs extends Component {
                         <div>{this.state.errors.content}</div>
                       </div>
                     </div>
-                  </div>
-                  {/* <!-- Message --> */}
-                  <div className="form-group label-floating">
+                  </div> */}
+              {/* <!-- Message --> */}
+              {/* <div className="form-group label-floating">
                     <label htmlFor="message" className="label">
                       Message *
                     </label>
@@ -272,9 +272,9 @@ class ContactUs extends Component {
                       onBlur={this.handleBlur}
                     />
                     <div>{this.state.errors.message}</div>
-                  </div>
-                  {/* <!-- Form Submit --> */}
-                  <div className="form-submit mt-5">
+                  </div> */}
+              {/* <!-- Form Submit --> */}
+              {/* <div className="form-submit mt-5">
                     <button
                       className="btn3"
                       type="submit"
@@ -287,12 +287,12 @@ class ContactUs extends Component {
                     <p style={{ marginTop: "-1%" }}>
                       *These field are required
                     </p>
-                  </div>
-                </form>
-              </div>
+                  </div> */}
+              {/* </form> */}
             </div>
           </div>
-          <Map />
+          {/* </div> */}
+          {/* <Map /> */}
         </section>
         <Footer />
       </React.Fragment>
