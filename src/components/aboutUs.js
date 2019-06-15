@@ -44,44 +44,7 @@ const aboutUs = () => {
             </div>
           </div>
         </div>
-        <div class="containerA">
-          <h2
-            style={{
-              textAlign: "center",
-              marginTop: "9%",
-              fontWeight: "600",
-              color: "white"
-            }}
-          >
-            Why Choose Killy
-          </h2>
-          <div class="row">
-            <div class="col">
-              <p>
-                An interactive AI powered self-learning personal assistant which
-                aims to thin the line between Human Intelligence and Artificial
-                Intelligence. Killy interacts with the users to understand their
-                Socio-Cultural needs and make recommendation based on that. It
-                enables users to access the information in any language due to
-                its multi linguistic capacity. At the moment, it focuses at
-                helping incoming travelers into Singapore.
-              </p>
-            </div>
-            <div class="col">
-              <p>
-                Killy will be available for booking of tickets, multiple types
-                of reservations and searching for local information. We aim to
-                provide a seamless user experience which reduces their
-                inhabitance towards usage of technology.
-                {/* </p> */}
-                {/* <p> */}
-                In an era, where everything is at your fingertips, we now
-                provide you, KILLY, your own personal assistant to fulfill all
-                your needs and make your life easier and faster
-              </p>
-            </div>
-          </div>
-        </div>
+        {/* Cards in the Bottom */}
         <div class="container" style={{ marginTop: "8%" }}>
           <div class="row" style={{ marginLeft: "5%" }}>
             <div class="col-md-4">

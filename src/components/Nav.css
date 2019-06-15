@@ -19,7 +19,7 @@
 
 .logoName {
   margin-top: -10% !important;
-  padding: 7%;
+  padding: 7% !important;
 }
 
 .imgProp {
@@ -30,13 +30,13 @@
 }
 .logoHeading {
   font-size: 12px;
-  margin-left: 30% !important;
+  margin-left: 9% !important;
   font-weight: lighter;
 }
 .Title {
-  margin-left: 15% !important;
-  margin-top: -30% !important;
-  line-height: 0.5;
+  margin-left: 45% !important;
+  margin-top: -24% !important;
+  line-height: 0.2;
 }
 
 .d-inline-block {

@@ -16,7 +16,7 @@ class Footer extends Component {
                   </a>
                 </li>
                 <li>
-                  <a className="lk" href="#!">
+                  <a className="lk" href="/aboutUs">
                     About Us
                   </a>
                 </li>

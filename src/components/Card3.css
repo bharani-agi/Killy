@@ -45,3 +45,10 @@
     margin: 0px !important;
   }
 }
+::data-toggle {
+  height: 500px !important;
+  width: 500px !important;
+}
+::title {
+  color: red;
+}

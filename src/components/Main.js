@@ -32,6 +32,7 @@ class Main extends Component {
               />
               <img
                 src={require("../images/earth.svg")}
+                className="imgres"
                 style={{ width: "50%", marginLeft: "180%" }}
                 alt="Pic"
               />
@@ -73,8 +74,11 @@ class Main extends Component {
               src="https://www.investmentnetwork.sg/embed/932393/300x250"
               width="300"
               height="250"
+              // z-index="1"
+              className="bnr"
               frameborder="0"
-              style={{ marginLeft: "38%", marginTop: "3%" }}
+              // allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              style={{ marginLeft: "38%", marginTop: "3%", zIndex: "1" }}
             >
               <p>Your browser does not support iframe</p>
             </iframe>

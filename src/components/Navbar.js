@@ -168,6 +168,7 @@ export default class NavigationBar extends React.Component {
                   <NavLink
                     className="LinkColor navItem social_icon ml-auto"
                     href="https://www.linkedin.com/company/killy/"
+                    target="_blank"
                   >
                     <a
                       className="li-ic"
@@ -182,6 +183,7 @@ export default class NavigationBar extends React.Component {
                   <NavLink
                     className="LinkColor navItem social_icon ml-auto"
                     href="https://www.instagram.com/hey_killy/"
+                    target="_blank"
                   >
                     <a
                       className="ins-ic"

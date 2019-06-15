@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import "./whyimageSlider.css";
-// import { Card, CardImg, CardBody, CardTitle } from "reactstrap";
+// import { Card, CardImg, CardBody, CardTitle11 } from "reactstrap";
 import { HoverCard } from "react-png-hovercard";
 export default class WhyImageSlider extends Component {
   constructor(props) {
@@ -31,7 +31,7 @@ export default class WhyImageSlider extends Component {
                     alt=""
                     style={{ objectFit: "cover" }}
                   />
-                  <p className="Title">All in one Assistant</p>
+                  <p className="Title11">All in one Assistant</p>
                 </div>
               }
               back={
@@ -56,7 +56,7 @@ export default class WhyImageSlider extends Component {
                     alt=""
                     style={{ objectFit: "cover" }}
                   />
-                  <p className="Title">Best Price</p>
+                  <p className="Title11">Best Price</p>
                 </div>
               }
               back={
@@ -80,7 +80,7 @@ export default class WhyImageSlider extends Component {
                     alt=""
                     style={{ objectFit: "cover" }}
                   />
-                  <p className="Title">Simple Structure</p>
+                  <p className="Title11">Simple Structure</p>
                 </div>
               }
               back={
@@ -103,7 +103,7 @@ export default class WhyImageSlider extends Component {
                     alt=""
                     style={{ objectFit: "cover" }}
                   />
-                  <p className="Title">Multi Linguistic</p>
+                  <p className="Title11">Multi Linguistic</p>
                 </div>
               }
               back={
@@ -126,7 +126,7 @@ export default class WhyImageSlider extends Component {
                     alt=""
                     style={{ objectFit: "cover" }}
                   />
-                  <p className="Title">Service Guarantee</p>
+                  <p className="Title11">Service Guarantee</p>
                 </div>
               }
               back={
@@ -151,7 +151,7 @@ export default class WhyImageSlider extends Component {
                     alt=""
                     style={{ objectFit: "cover" }}
                   />
-                  <p className="Title">Trip planner & Optimizer</p>
+                  <p className="Title11">Trip planner & Optimizer</p>
                 </div>
               }
               back={

@@ -21,7 +21,8 @@
 
 .card-title2 {
   text-align: center;
-  margin-top: -8%;
+  /* margin-top: -5%; */
+  font-weight: 600;
 }
 
 @media screen and (max-width: 992px) {
