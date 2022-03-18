@@ -18,7 +18,7 @@ class Main extends Component {
         <div>
           <div className="ImgProp" />
           <div>
-            <Button className="imgBtn" color="primary" href="/contactUs">
+            <Button className="imgBtn" color="primary" href="https://killy.tripnect.com">
               Talk with Killy
             </Button>
           </div>
